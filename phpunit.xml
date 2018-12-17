@@ -1,0 +1,10 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="bar_codes">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <includePath>.</includePath>
+    </php>
+</phpunit>

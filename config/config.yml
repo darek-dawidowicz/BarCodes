@@ -1,0 +1,12 @@
+db:
+  driver: mysqli
+  user: root
+  password: root
+  host: localhost
+  dbname: bar_codes
+barcode:
+  x: 80
+  y: 40
+  length: 13
+  width: .35
+  height: 16
